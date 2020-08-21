@@ -1,0 +1,11 @@
+require("./config/server.js");
+require("./config/database.js");
+###
+GET http://localhost:1234/
+
+###
+POST http://localhost:1234/
+Content-Type: application/json
+{
+
+}
